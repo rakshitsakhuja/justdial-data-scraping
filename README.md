@@ -1,6 +1,7 @@
 # jdscraper.py
 ## A simple Python(3.5.2) script to extract data from the website justdial.com
 
+### It's against justdial's "terms of use" to scrape data from their website. This script is to be strictly used for educational purposes.
 <br />
 
 ## Libraries used:
