@@ -1,5 +1,5 @@
 import bs4, requests, sys, csv, pyperclip
-base_url = sys.argv[1] if len(sys.argv) > 2 else pyperclip.paste()
+base_url = sys.argv[1] ##if len(sys.argv) > 2 else pyperclip.paste() ## this code was not working with this if condition
 arr = []
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36', 'cookie':'inweb_city=Kolkata;'}
 res = requests.get(base_url, headers=headers)
